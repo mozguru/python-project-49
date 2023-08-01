@@ -2,16 +2,35 @@
 
 from random import randint
 
+print('Welcome to the Brain Games!')
+print('May I have your name?')
+name = input()
+print(f"Hello, {name}!")
 print('Answer "yes" if the number is even, otherwise answer "no".')
-print('Question: ', randint(0, 100))
-answer = input('Your answer: ')
 
-def check_number(number):
-    number = randint(0, 100)
-    if number % 2 == 0 and answer == 'yes':
-        print('Correct!')
+def is_even():
+    number = randint(1, 100)
+
+    print('Question: ', number)
+    your_answer = input('Your answer: ')
+
+    if number % 2 == 0:
+        true_answer = 'yes'
     else:
-        print(answer, "is wrong answer ;(. Correct answer was", not answer, "Let's try again")
-    return
+        true_answer = 'no'
 
-print(check_number(randint))
+    if your_answer != true_answer:
+        print(f"'{your_answer}' is wrong answer ;(. Correct answer was '{true_answer}'.")
+        print("Let's try again!")
+    else:
+        print('Correct!')
+
+is_even()
+
+def try_count():
+    counter = 0
+    while counter < 2:
+        is_even()
+        counter += 1
+
+try_count()

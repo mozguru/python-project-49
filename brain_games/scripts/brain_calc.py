@@ -3,6 +3,7 @@
 from brain_games.games.game_logic import game_logic
 from brain_games.games import calc
 
+
 def main():
     game_logic(calc)
 

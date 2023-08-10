@@ -4,6 +4,7 @@ from random import randint, choice
 
 GAME_QUESTION = 'What is the result of the expression?'
 
+
 def brain_calc(number_one, number_two, operator):
     if operator == '+':
         true_answer = number_one + number_two
@@ -12,6 +13,7 @@ def brain_calc(number_one, number_two, operator):
     elif operator == '-':
         true_answer = number_one - number_two
     return true_answer
+
 
 def game_start():
     number_one = randint(1, 50)

@@ -21,7 +21,7 @@ def game_logic(_):
 
         else:
             print(f"'{your_answer}' is wrong answer ;(. Correct answer was '{true_answer}'.")
-            print("Let's try again!")
+            print(f"Let's try again, {name}!")
             break
 
     if round_counter == 3:

@@ -9,3 +9,6 @@ https://asciinema.org/a/Fikc9JIis6rlO0JppBJXlFinP
 
 Brain Calc Game:
 https://asciinema.org/a/lF9ezrod7g8j7SuXpIigbkB6B
+
+Brain GCD Game:
+https://asciinema.org/a/hFGppLa6pr40Hfh4b3XmLsKUG

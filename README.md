@@ -5,17 +5,16 @@
 
 ## This project includes five math games:
 Brain Even Game:
-https://asciinema.org/a/Fikc9JIis6rlO0JppBJXlFinP
-
+https://asciinema.org/a/rpDy9mT6VrhMTNkuDbw7EtNpM
 
 Brain Calc Game:
-https://asciinema.org/a/lF9ezrod7g8j7SuXpIigbkB6B
+https://asciinema.org/a/1X5yLOsZk5pRDszuYwnkIE5jk
 
 Brain GCD Game:
 https://asciinema.org/a/hFGppLa6pr40Hfh4b3XmLsKUG
 
 Brain Progression Game:
-https://asciinema.org/a/BBqkKQu2BPCM6YmUAOWrv4SL1
+https://asciinema.org/a/2TnGk5lLXb5J85GNWqU9M1wYO
 
 Brain Prime Game:
 https://asciinema.org/a/ndvmqPBblKSqQJUOWDblnaI6v

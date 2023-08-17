@@ -6,7 +6,7 @@ GAME_QUESTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 def brain_even(number):
     if number % 2 == 0:
         return number
-    
+
 
 def game_start():
     number = randint(1, 100)

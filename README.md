@@ -3,6 +3,7 @@
 
 <a href="https://codeclimate.com/github/mozguru/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/c37cff58c062735768af/maintainability" /></a>
 
+## This project includes five math games:
 Brain Even Game:
 https://asciinema.org/a/Fikc9JIis6rlO0JppBJXlFinP
 

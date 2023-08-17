@@ -20,7 +20,8 @@ def game_logic(_):
             round_counter += 1
 
         else:
-            print(f"'{your_answer}' is wrong answer ;(. Correct answer was '{true_answer}'.")
+            print(f"'{your_answer}' is wrong answer ;(."
+                  f"Correct answer was '{true_answer}'.")
             print(f"Let's try again, {name}!")
             break
 

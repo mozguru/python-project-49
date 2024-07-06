@@ -23,8 +23,12 @@ def get_question_answer():
     first_term = randint(MIN_FIRST_TERM, MAX_FIRST_TERM)
     common_difference = randint(MIN_COMM_DIFF, MAX_COMM_DIFF)
     sequence_length = randint(MIN_SEQUENCE, MAX_SEQUENCE)
-    progression = generate_progression(first_term, common_difference, sequence_length)
+    progression = generate_progression(
+        first_term, common_difference, sequence_length
+    )
     progression_string = ' '.join(str(n) for n in progression)
     true_answer = choice(progression)
-    question = progression_string.replace(str(true_answer), '..', 1)
+    question = progression_string.replace(
+        str(true_answer), '..', 1
+    )
     return question, str(true_answer)

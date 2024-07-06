@@ -23,5 +23,5 @@ def get_question_answer():
     number_two = randint(MIN_NUMBER, MAX_NUMBER)
     operator = choice(['+', '*', '-'])
     question = f'{number_one} {operator} {number_two}'
-    true_answer = brain_calc(number_one, number_two, operator)
+    true_answer = calc_expression(number_one, number_two, operator)
     return question, str(true_answer)

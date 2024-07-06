@@ -10,7 +10,7 @@ def start_game(_):
     ROUND_LIMIT = 3
 
     while round_counter < ROUND_LIMIT:
-        question, true_answer = _.game_start()
+        question, true_answer = _.get_question_answer()
         print(f'Question: {question}')
         your_answer = input('Your answer: ')
 

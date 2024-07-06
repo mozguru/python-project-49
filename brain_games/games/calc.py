@@ -4,8 +4,11 @@ from random import randint, choice
 
 GAME_QUESTION = 'What is the result of the expression?'
 
+MIN_NUMBER = 1
+MAX_NUMBER = 50
 
-def brain_calc(number_one, number_two, operator):
+
+def calc_expression(number_one, number_two, operator):
     if operator == '+':
         true_answer = number_one + number_two
     elif operator == '*':
@@ -15,9 +18,9 @@ def brain_calc(number_one, number_two, operator):
     return true_answer
 
 
-def game_start():
-    number_one = randint(1, 50)
-    number_two = randint(1, 50)
+def get_question_answer():
+    number_one = randint(MIN_NUMBER, MAX_NUMBER)
+    number_two = randint(MIN_NUMBER, MAX_NUMBER)
     operator = choice(['+', '*', '-'])
     question = f'{number_one} {operator} {number_two}'
     true_answer = brain_calc(number_one, number_two, operator)

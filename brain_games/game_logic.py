@@ -1,6 +1,4 @@
-#!/usr/bin/env python3
-
-def game_logic(_):
+def start_game(_):
     print('Welcome to the Brain Games!')
     print('May I have your name?')
     name = input()
@@ -9,8 +7,9 @@ def game_logic(_):
     round_counter = 0
     print(_.GAME_QUESTION)
 
-    win = 3
-    while round_counter < win:
+    ROUND_LIMIT = 3
+
+    while round_counter < ROUND_LIMIT:
         question, true_answer = _.game_start()
         print(f'Question: {question}')
         your_answer = input('Your answer: ')
